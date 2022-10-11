@@ -6,6 +6,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.40.0
   '@typescript-eslint/parser': ^5.40.0
   '@vitejs/plugin-vue': ^3.1.0
+  '@vue/test-utils': ^2.1.0
   eslint: '>=8.0.0'
   eslint-plugin-vue: ^9.6.0
   husky: ^8.0.1
@@ -33,6 +34,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
   '@typescript-eslint/parser': 5.40.0_z4bbprzjrhnsfa24uvmcbu7f5q
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.7+vue@3.2.40
+  '@vue/test-utils': 2.1.0_vue@3.2.40
   eslint: 8.25.0
   eslint-plugin-vue: 9.6.0_eslint@8.25.0
   husky: 8.0.1
@@ -1286,6 +1288,14 @@ packages:
 
   /@vue/shared/3.2.40:
     resolution: {integrity: sha512-0PLQ6RUtZM0vO3teRfzGi4ltLUO5aO+kLgwh4Um3THSR03rpQWLTuRCkuO5A41ITzwdWeKdPHtSARuPkoo5pCQ==}
+
+  /@vue/test-utils/2.1.0_vue@3.2.40:
+    resolution: {integrity: sha512-U4AxAD/tKJ3ajxYew1gkfEotpr96DE/gLXpbl+nPbsNRqGBfQZZA7YhwGoQNDPgon56v+IGZDrYq7pe3GDl9aw==}
+    peerDependencies:
+      vue: ^3.0.1
+    dependencies:
+      vue: 3.2.40
+    dev: true
 
   /JSONStream/1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
