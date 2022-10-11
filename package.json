@@ -1,0 +1,42 @@
+{
+  "name": "doneful",
+  "description": "The doneful - todo lofi pomodoro app, that will make your work easier",
+  "homepage": "https://github.com/crackidocky/doneful",
+  "bugs": {
+    "url": "https://github.com/crackidocky/doneful/issues",
+    "email": "crackidocky@gmail.com"
+  },
+  "license": "SEE THE LICENSE IN LICENSE FILE",
+  "person": {
+    "name": "Daniil Shilo",
+    "email": "crackidocky@gmail.com",
+    "url": "https://github.com/crackidocky"
+  },
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint ./src --fix --ext .vue,.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "jest": "^29.1.2",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": ">=8.0.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "husky": "^8.0.1",
+    "typescript": ">=4.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}

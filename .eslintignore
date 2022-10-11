@@ -1,0 +1,6 @@
+.eslintrc.cjs
+public
+tsconfig.*.json
+vite.config.ts
+src/vite-env.d.ts
+commitlint.config.js
