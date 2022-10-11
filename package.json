@@ -1,7 +1,7 @@
 {
   "name": "doneful",
   "description": "The doneful - todo lofi pomodoro app, that will make your work easier",
-  "homepage": "https://github.com/crackidocky/doneful",
+  "homepage": "https://crackidocky.github.io/doneful",
   "bugs": {
     "url": "https://github.com/crackidocky/doneful/issues",
     "email": "crackidocky@gmail.com"
@@ -17,12 +17,15 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "lint": "eslint --fix --ext .vue,.ts",
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "jest": "^29.1.2",
     "phosphor-icons": "^1.4.2",
     "pinia": "^2.0.23",
