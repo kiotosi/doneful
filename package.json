@@ -24,9 +24,10 @@
   },
   "dependencies": {
     "jest": "^29.1.2",
-    "phosphor-vue": "^4.4.0",
+    "phosphor-icons": "^1.4.2",
     "pinia": "^2.0.23",
     "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
     "vue-router": "4"
   },
   "devDependencies": {
