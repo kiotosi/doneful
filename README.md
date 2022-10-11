@@ -38,9 +38,9 @@
 <a href="https://vitejs.dev/">  <img width="12" src="https://user-images.githubusercontent.com/101672047/195148332-eaac79a5-1449-49d9-947d-12a618960d1a.png" /> Vite </a>
 </div>
 
-<!-- Bootstrap -->
+<!-- Phosphor Icons -->
 <div style="display: flex;">
-  <a href="https://icons.getbootstrap.com/">  <img width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" /> Bootstrap Icons </a>
+  <a href="https://github.com/phosphor-icons/phosphor-home#phosphor-icons">  <img width="12" src="https://github.com/phosphor-icons/phosphor-vue/raw/vue2/meta/phosphor-mark-tight-yellow.png" /> Phosphor Icons </a>
 </dev>
 
 <!-- ESLint -->
