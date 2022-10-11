@@ -19,12 +19,15 @@
     "prepare": "husky install",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "lint": "eslint ./src --fix --ext .vue,.ts",
+    "lint": "eslint --fix --ext .vue,.ts",
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "jest": "^29.1.2",
-    "vue": "^3.2.37"
+    "phosphor-vue": "^4.4.0",
+    "pinia": "^2.0.23",
+    "vue": "^3.2.37",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
@@ -35,6 +38,8 @@
     "eslint": ">=8.0.0",
     "eslint-plugin-vue": "^9.6.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "sass": "^1.55.0",
     "typescript": ">=4.4",
     "vite": "^3.1.0",
     "vue-tsc": "^0.40.4"
