@@ -1,7 +1,7 @@
 <template>
   <div class="construction-screen">
     <PhosphorIcon class="construction-screen__icon" name="warning-bold" :size="96" />
-    <h1 class="construction-screen__title"> {{ text }}</h1>
+    <h1 class="construction-screen__title"> {{ $t('developmentNote') }}</h1>
   </div>
 </template>
 

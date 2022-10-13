@@ -3,7 +3,6 @@ Directory contains different localizations.
 
 ## Current locales
 - Russian
-- Chinese
 - Japanese
 - English
 - Ukrainian
