@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { MusicStoreStates } from './types/musicStore.types';
+import { MusicStoreStates } from '../types/musicStore.types';
 
 const useMusicStore = defineStore('music', {
   state: (): MusicStoreStates => {

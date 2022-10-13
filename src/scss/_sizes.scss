@@ -1,0 +1,19 @@
+:root {
+
+  // Fonts
+  --fz-footer: 12px;
+  --fz-sub: 14px;
+  --fz-text: 16px;
+  --fz-title: 24px;
+  --fz-hero: 48px;
+  --fz-timer: 64px;
+
+  // Spacing
+  --space-xss: 4px; // 1 * x === 4
+  --space-xs: calc(var(--space-xss) * 2); // 2 * x === 8
+  --space-sm: calc(var(--space-xss) * 3); // 3 * x === 12
+  --space-md: calc(var(--space-xss) * 4); // 4 * x === 16
+  --space-bg: calc(var(--space-xss) * 5); // 5 * x === 20
+  --space-lg: calc(var(--space-xss) * 6); // 6 * x === 24
+  --space-xl: calc(var(--space-xss) * 9); // 9 * x === 36
+}

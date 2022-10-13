@@ -1,0 +1,31 @@
+@import "./media";
+
+@mixin upon-phone {
+  @media (min-width: $upon-phone) {
+    @content;
+  }
+}
+
+@mixin upon-tablet-portr {
+  @media (min-width: $upon-tablet-portrait) {
+    @content;
+  }
+}
+
+@mixin upon-tablet-land {
+  @media (min-width: $upon-tablet-landscape) {
+    @content;
+  }
+}
+
+@mixin upon-desktop {
+  @media (min-width: $upon-desktop) {
+    @content;
+  }
+}
+
+@mixin upon-desktop-hr {
+  @media (min-width: $upon-desktop-hr) {
+    @content;
+  }
+}

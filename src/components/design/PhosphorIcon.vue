@@ -1,5 +1,5 @@
 <template>
-  <i :class="`ph-${name}`" />
+  <i :style="'font-size: ' + size + 'px'" :class="`ph-${name}`" />
 </template>
 
 <script lang="ts">
@@ -10,6 +10,10 @@ export default defineComponent({
     name: {
       type: String,
       required: true
+    },
+    size: {
+      type: Number,
+      default: 16
     }
   }
 });
