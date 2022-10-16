@@ -8,6 +8,7 @@
 - **Sync!** You can sync your progress across devices
 - **Music!** Listen to some beatiful music, while you are working
 - **Timer!** Pomodoro is a very effective method for keeping your attention on tasks. Just set a timer and forget about it, it's time to relax - relax
+- **Statistics!** You are good at your job and you know it. Statistics will remind you how much you have done today and you will be able to finish the day with peace of mind
 
 # Stack
 
