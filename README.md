@@ -3,14 +3,14 @@
 </div>
 
 
-# Features
+# ✨ Features 
 - **Todo!** You can have a mini todo list for your session. It will save in your local browser storage
 - **Sync!** You can sync your progress across devices
 - **Music!** Listen to some beatiful music, while you are working
 - **Timer!** Pomodoro is a very effective method for keeping your attention on tasks. Just set a timer and forget about it, it's time to relax - relax
 - **Statistics!** You are good at your job and you know it. Statistics will remind you how much you have done today and you will be able to finish the day with peace of mind
 
-# Stack
+# 😎 Stack
 
 <!-- Vue -->
 <div style="display: flex;">
@@ -52,7 +52,7 @@
   <a href="https://eslint.org/"> <img width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" /> ESLint </a>
 </dev>
 
-# Localization
+# Localization 🇯🇵
 | Locale | Done? |
 |--------|-------|
 | Japanese | ⚒ |
@@ -60,5 +60,16 @@
 | Russian | ⚒ |
 | Ukrainian | ⚒ |
 
-# Prototype screen
+# 🙂 Prototype screen
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/101672047/196012008-198ac3fd-a088-43ce-a383-8a798b8f68ef.png">
+
+# 🌈 Colorscheme
+
+![Neutral 0-90 (2)](https://user-images.githubusercontent.com/101672047/196012665-386b8168-fb06-40b1-86de-7ee30db7c763.png)
+![Neutral 100-900](https://user-images.githubusercontent.com/101672047/196012740-3173a52b-4c86-4758-a8dd-551b5035d49a.png)
+![Red](https://user-images.githubusercontent.com/101672047/196013014-31a6714c-1f74-4bcf-bbf2-7faae2ba4dd1.png)
+![Green](https://user-images.githubusercontent.com/101672047/196013016-6740962a-216c-400d-92a0-fc5fad494706.png)
+![Blue](https://user-images.githubusercontent.com/101672047/196013018-f7466c64-0d39-4a10-8c04-3811c1f083c1.png)
+![Violet](https://user-images.githubusercontent.com/101672047/196013019-93b07814-1da5-45be-a4b5-7cef87469667.png)
+![Yellow](https://user-images.githubusercontent.com/101672047/196013021-aa1d992d-b6d7-4f10-85e5-0674ee3df546.png)
+
