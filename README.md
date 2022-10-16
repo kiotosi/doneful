@@ -60,5 +60,5 @@
 | Russian | ⚒ |
 | Ukrainian | ⚒ |
 
-# Screen
+# Prototype screen
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/101672047/196012008-198ac3fd-a088-43ce-a383-8a798b8f68ef.png">
