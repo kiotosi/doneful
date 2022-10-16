@@ -52,7 +52,7 @@
   <a href="https://eslint.org/"> <img width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" /> ESLint </a>
 </dev>
 
-# Localization 🇯🇵
+# 🇯🇵 Localization
 | Locale | Done? |
 |--------|-------|
 | Japanese | ⚒ |
