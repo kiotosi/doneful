@@ -3,8 +3,11 @@
 </div>
 
 
-
-
+# Features
+- **Todo!** You can have a mini todo list for your session. It will save in your local browser storage
+- **Sync!** You can sync your progress across devices
+- **Music!** Listen to some beatiful music, while you are working
+- **Timer!** Pomodoro is a very effective method for keeping your attention on tasks. Just set a timer and forget about it, it's time to relax - relax
 
 # Stack
 
@@ -48,6 +51,13 @@
   <a href="https://eslint.org/"> <img width="12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" /> ESLint </a>
 </dev>
 
-<br>
+# Localization
+| Locale | Done? |
+|--------|-------|
+| Japanese | ⚒ |
+| English | ⚒ |
+| Russian | ⚒ |
+| Ukrainian | ⚒ |
 
+# Screen
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/101672047/196012008-198ac3fd-a088-43ce-a383-8a798b8f68ef.png">
