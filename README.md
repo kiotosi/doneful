@@ -64,7 +64,7 @@
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/101672047/196012008-198ac3fd-a088-43ce-a383-8a798b8f68ef.png">
 
 # 🌈 Colorscheme
-You can see this colors in hex in [_colors.scss](https://github.com/crackidocky/doneful/blob/master/src/scss/_colors.scss)
+You can see these colors in hex in [_colors.scss](https://github.com/crackidocky/doneful/blob/master/src/scss/_colors.scss)
 
 ![Neutral 0-90 (2)](https://user-images.githubusercontent.com/101672047/196012665-386b8168-fb06-40b1-86de-7ee30db7c763.png)
 ![Neutral 100-900](https://user-images.githubusercontent.com/101672047/196012740-3173a52b-4c86-4758-a8dd-551b5035d49a.png)
