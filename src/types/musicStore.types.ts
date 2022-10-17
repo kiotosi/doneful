@@ -1,3 +1,5 @@
+import { Playlist } from "./music.types";
+
 export interface MusicStoreStates {
-  currentMusicID: number
+  playlist: Playlist 
 }
