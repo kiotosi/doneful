@@ -1,13 +1,25 @@
 <template>
-  <div class="loading-screen">
-    <div class="loading-screen__icon">
-      <PhosphorIcon v-if="Math.random() > 0.99" name="eye-bold" :size="96" />
-      <PhosphorIcon v-else name="eye-closed-bold" :size="96" />
+  <Transition name="loader">
+    <div class="loading-screen">
+      <div class="loading-screen__icon">
+        <PhosphorIcon
+          v-if="Math.random() > 0.99"
+          icon-name="eye"
+          icon-style="bold"
+          :size="96"
+        />
+        <PhosphorIcon
+          v-else
+          icon-name="eye-closed"
+          icon-style="bold"
+          :size="96"
+        />
+      </div>
+      <div class="loading-screen__title">
+        Doneful
+      </div>
     </div>
-    <div class="loading-screen__title">
-      Doneful
-    </div>
-  </div>
+  </Transition>
 </template>
 
 <script lang="ts">
@@ -21,12 +33,17 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .loading-screen {
+  position: absolute;
+  inset: 0;
+  z-index: 99;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
+  overflow: hidden;
+
+  background-color: var(--color-blue-light);
 
   &__icon {
     color: var(--color-neutral-700);
@@ -40,6 +57,17 @@ export default defineComponent({
     user-select: none;
     animation: flick 2.5s infinite forwards ease-in;
   }
+}
+
+.loader-enter-active,
+.loader-leave-active {
+  transition: all 0.4s ease-in-out;
+}
+
+.loader-leave-to {
+  opacity: 0;
+  transform: scale(1.5);
+  transform-origin: center;
 }
 
 @keyframes levitate {

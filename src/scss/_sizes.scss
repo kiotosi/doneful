@@ -16,4 +16,9 @@
   --space-bg: calc(var(--space-xss) * 5); // 5 * x === 20
   --space-lg: calc(var(--space-xss) * 6); // 6 * x === 24
   --space-xl: calc(var(--space-xss) * 9); // 9 * x === 36
+  --space-mega: calc(var(--space-xss) * 18); // 18 * x === 72
+
+  // Border radius
+  --br: 8px;
+  --br-alt: 4px;
 }

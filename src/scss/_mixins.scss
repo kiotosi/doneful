@@ -1,5 +1,6 @@
 @import "./media";
 
+// Media mixins
 @mixin upon-phone {
   @media (min-width: $upon-phone) {
     @content;
@@ -28,4 +29,11 @@
   @media (min-width: $upon-desktop-hr) {
     @content;
   }
+}
+
+// UI mixins
+@mixin popupUI {
+  background-color: var(--color-neutral-10);
+  border-radius: var(--br);
+  padding: var(--space-lg) var(--space-bg);
 }
