@@ -1,3 +1,28 @@
 {
-  "developmentNote": "Development in progress"
+  "developmentNote": "Development in progress",
+  "tutorialTodo": [
+      "Doneful is awesome!",
+      "You can create your todo items here.\nThey will be saved and synced with your LocalStorage",
+      "You can delete items with right trash icon",
+      "You can add new item via Ctrl + Enter",
+      "Also you can check item with left checkbox"
+  ],
+  "music": {
+    "genre": "Genre",
+    "author": "Author"
+  },
+  "timeset": {
+    "focusTime": [ 
+      "I wanna stay focused for",
+      "minutes and rest for",
+      "minutes."
+    ],
+    "bigBreak": [
+      "Also I",
+      "want to",
+      "have a big break after",
+      "sessions for",
+      "minutes"
+    ]
+  }
 }
